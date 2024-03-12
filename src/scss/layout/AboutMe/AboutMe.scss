@@ -1,0 +1,7 @@
+@import '../../core/Variables.scss';
+@import '../../core/Mixins.scss';
+
+.boxAbout{
+    @include box(left);
+
+}

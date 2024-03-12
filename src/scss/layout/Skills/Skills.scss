@@ -1,0 +1,7 @@
+@import '../../core/Variables.scss';
+@import '../../core/Mixins.scss';
+
+.boxSkills {
+    @include box(right);
+   }
+   

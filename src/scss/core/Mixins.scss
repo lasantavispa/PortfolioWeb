@@ -1,0 +1,9 @@
+@mixin box ($from){
+    padding: 16px;
+    height: 70vh;
+    background: linear-gradient($c-black, $c-lightBlack) padding-box,
+      linear-gradient(to $from bottom, $c-green, $c-pink) border-box;
+    border-radius: 25px;
+    border: 8px solid transparent;    
+  }
+  

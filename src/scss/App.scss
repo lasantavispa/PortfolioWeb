@@ -1,0 +1,14 @@
+@import './core/Reset.scss';
+@import './core/Variables.scss';
+.body{
+    background-color: $c-black;
+    padding: 20px;
+  
+}
+.main{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+
